@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+  margin: auto;
+  grid-template-areas:
+    "a b c d"
+    "e e c d"
+    "e e f g"
+    "h h h g";
+}
+
+.grid-a {
+  grid-area: a;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-b {
+  grid-area: b;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-c {
+  grid-area: c;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-d {
+  grid-area: d;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-e {
+  grid-area: e;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-f {
+  grid-area: f;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-g {
+  grid-area: g;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+.grid-h {
+  grid-area: h;
+  border: solid 2px rgb(200, 200, 200);
+}
+
+div {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  border-radius: 8px;
+}
